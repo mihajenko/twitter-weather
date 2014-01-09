@@ -12,7 +12,7 @@ __license__ = "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unporte
 traindatafp = 'train.csv'
 testdatafp = 'test.csv'
 outputdatafp = 'prediction.csv'
-# Change alpha parameter for cross-validation at your own discretion
+# Change Ridge's alpha parameter at your own discretion (use CV!)
 ##############################################################################
 
 import time
